@@ -257,23 +257,4 @@ O dump analisado contém 302 estações com latitude e longitude válidas; nenhu
 foi descartada por falta de coordenadas. A quantidade efetiva de pontos do
 heatmap varia com o período e a variável escolhidos.
 
-## Checklist manual de entrega
 
-- [ ] Importar `wu.sql` e confirmar o schema `weather_pws`.
-- [ ] Executar `docs/station_location.sql` e preencher cidade/UF das estações
-      usadas na demonstração.
-- [ ] Ajustar usuário e senha do MySQL.
-- [ ] Executar `.\mvnw.cmd clean compile`.
-- [ ] Abrir `app.Main` e verificar o carregamento das estações.
-- [ ] Filtrar por Cidade/UF e confirmar redução do combo e dos marcadores.
-- [ ] Buscar uma estação e confirmar tabela e resumo.
-- [ ] Clicar numa linha e conferir o destaque preto no marcador.
-- [ ] Clicar em um marcador e conferir o popup com sparkline.
-- [ ] Conferir as cores dos níveis de alerta.
-- [ ] Ativar e desativar o heatmap.
-- [ ] Ativar e desativar isolinhas e zonas de alerta.
-- [ ] Reduzir o zoom do mapa e conferir o cluster com contagem.
-- [ ] Usar o slider de tempo e confirmar atualização do mapa.
-- [ ] Trocar a variável e clicar em **Buscar** para recalcular o heatmap.
-- [ ] Testar o mapa com internet e observar os tiles do OpenStreetMap.
-- [ ] Conferir mensagens amigáveis para data inválida e conexão recusada.

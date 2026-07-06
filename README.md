@@ -19,7 +19,7 @@ isolinhas.
 
 - JDK 17 ou superior;
 - MySQL 8 instalado e em execução;
-- dump `wu.sql`;
+- dump `wu.sql`, incluído na raiz do projeto;
 - acesso à internet na primeira execução do Maven e para os tiles do mapa.
 
 O Maven Wrapper está incluído. Não é necessário instalar o Maven globalmente.
